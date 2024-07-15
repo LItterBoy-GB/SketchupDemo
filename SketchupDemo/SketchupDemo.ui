@@ -30,13 +30,19 @@
    </widget>
    <widget class="QMenu" name="menuRuby">
     <property name="title">
-     <string>Ruby控制台</string>
+     <string>扩展程序</string>
     </property>
+    <addaction name="actionRuby"/>
    </widget>
    <addaction name="menu"/>
    <addaction name="menuRuby"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionRuby">
+   <property name="text">
+    <string>Ruby控制台</string>
+   </property>
+  </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources>
